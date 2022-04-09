@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecytez | "José Maria Pino Suárez"</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <div id="titulo">
+                        <img src="./assets/logo.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;COLEGIO DE ESTUDIOS CIENTIFICOS Y TECNOLOGICOS DEL ESTADO DE ZACATECAS
+                </p>
+                </div>
+
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs|pills" id="navId" role="tablist">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CECYTEZ</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="mensaje.html">Mensaje del Director</a>
+                            <a class="dropdown-item" href="historia_y_filosofia.html">Historia y Filosofia</a>
+                            <a class="dropdown-item" href="modelo_educativo.html">Modelo Educativo</a>
+                            <a class="dropdown-item" href="instalaciones.html">Instalaciones</a>
+                            <a class="dropdown-item" href="reglamento.html">Reglamento</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CARRERAS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="tpia.html">TPIA</a>
+                            <a class="dropdown-item" href="tdsm.html">TDSM</a>
+                            <a class="dropdown-item" href="programacion.html">Programacion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ALUMNOS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ingreso.html">Ingreso</a>
+                            <a class="dropdown-item" href="inicio_de_clases.html">Inicio de Clases</a>
+                            <a class="dropdown-item" href="becas.html">Becas</a>
+                            <a class="dropdown-item" href="servicios_al_estudiante.html">Servicios al Estudiante</a>
+                            <a class="dropdown-item" href="calendario_escolar.html">Calendario Escolar</a>
+                            <a class="dropdown-item" href="titulacion.html">Titulacion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">VINCULACION</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="servicio_social.html">Servicio Social</a>
+                            <a class="dropdown-item" href="centro_de_idiomas.html">Centro de Idiomas</a>
+                            <a class="dropdown-item" href="cursos_y_servicios.html">Cursos y Servicios Tecnologicos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="contacto.html" class="nav-link ">CONTACTO</a>
+                    </li>
+                </ul>
+
+
+                <!-- Tab panes -->
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+                    <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+                    <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+                    <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+                    <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+    <script>
+        var triggerEl = document.querySelector('#navId a')
+        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+    </script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <br>
+                <h3>Servicios al Estudiante</h3>
+                <div class="segundo">
+                    <hr style="height: 3px;border-width:0;background-color:#30A355;">
+                    <p>El Cecytez, ofrece a la comunidad estudiantil una serie de servicios en diferentes ámbitos cuidado de la salud, desarrollo personal, apoyo social,deportivo, cultural que se complementan para lograr el gran objetivo final de una formación
+                        integral y humanista.</p>
+                    <p>Si deseas conocer más acerca de los servicios que ofrece la Institución, te presentamos una breve reseña de todos y cada uno de los servicios que se te ofrecen.</p>
+                    <dl>
+                        <dt>COMEDOR</dt>
+                        <dd>Te brindamos servicio de cafetería donde podrás degustar de una variedad de deliciosos platillos preparados al momento y aún mejor, a precios muy accesibles.</dd>
+                        <img src="./assets/comedor.jpeg" alt="">
+                    </dl>
+                    <dl>
+                        <dt>TRANSPORTE</dt>
+                        <dd>Utiliza las camionetas que llevan y traen a los estudiantes de las diferentes comunidades.</dd>
+                        <img src="./assets/camioneta.jpg" alt="">
+                    </dl>
+                    <dl>
+                        <dt>ESPACIOS RECREATIVOS</dt>
+                        <dd>Utiliza los espacios recreativos para deportes y entretenimiento en receso y horas libres.</dd>
+                        <img src="./assets/espacio.jpeg" alt="">
+                    </dl>
+                    <dl>
+                        <dt>LONCHERIA</dt>
+                        <dd>Te brinda una variedad de deliciosos loches preparados al momento, golosinas,jugos y refrescos con preciosos accesibles.</dd>
+                        <img src="./assets/loncheria.jpeg" alt="">
+                    </dl>
+                    <dl>
+                        <dt>BIBLIOTECA</dt>
+                        <dd>Te brindamos un espacio amplío de biblioteca para que realices tus consultas, estudies tranquilamente o simplemente relajarte leyendo una revista. Tú escoges…</dd>
+                        <img src="./assets/libro.jpg" alt="">
+                    </dl>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <br>
+                <h2>¡Inscribete ya!</h2>
+                <hr style="height: 3px;border-width:0;background-color:#30A355;">
+                <img src="./assets/somos.png" alt="">
+                <br>
+                <h6>¡TE ESTAMOS ESPERANDO!</h6>
+                <h5>"CECYTEZ"</h5>
+                <h5>PLANTEL "JOSÉ MA. PINO SUÁREZ"</h5>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="row">
+            <div class="col">
+                <h5> Nuestra Institución</h5>
+                <p> Cecytez Plantel Jose Ma. Pino Suarez. Somos una institución que brinda y maneja la información con transparencia.</p>
+
+            </div>
+            <div class="col">
+                <h5> Nuestro plantel</h5>
+                <p><i class="bi bi-geo-alt"></i> Direccion: Calle 15 sur #1 Pino Suarez C.P. 98960</p>
+                <p><i class="bi bi-telephone"></i> Telefono: 4969679620</p>
+                <p><i class="bi bi-envelope"></i> Correo: cecyt_pinosuarez@cecytezac.edu.mx</p>
+            </div>
+            <div class="col">
+                <h5> Enlaces de interes</h5>
+                <p> <a href="https://www.facebook.com/cecytcoloradapinos.pinosuarez.9"><i class="bi bi-facebook"></i> Facebook</a></p>
+                <p> <a href="https://cecytezac.edu.mx/index.php"><i class="bi bi-globe"></i> Cecytez</a></p>
+                <p> <a href="https://www.gob.mx/sep"><i class="bi bi-geo-alt-fill"></i> SEP</a></p>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
